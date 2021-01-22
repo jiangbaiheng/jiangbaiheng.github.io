@@ -12,3 +12,4 @@
     * 2021/1/21 (https://github.com/fouber/blog/issues/1)
 * 工程杂谈
     * [浅谈前端集成解决方案](https://github.com/jiangbaiheng/jiangbaiheng.github.io/blob/main/202101/day02.md)
+    * [浅谈前端集成解决方案2](https://github.com/jiangbaiheng/jiangbaiheng.github.io/blob/main/202102/day02.md)
