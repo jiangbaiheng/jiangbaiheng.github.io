@@ -9,7 +9,7 @@
 目录
 
 * 系列专题
-    * [前端工程——基础篇](https://github.com/fouber/blog/issues/10)
+    * 2021/1/21 (https://github.com/fouber/blog/issues/1)
 * 工程杂谈
     * [浅谈前端集成解决方案](https://github.com/fouber/blog/issues/1)
     * [前端工程与性能优化](https://github.com/fouber/blog/issues/3)
