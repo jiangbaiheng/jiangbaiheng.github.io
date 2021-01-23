@@ -2,7 +2,7 @@
 
 # 1 Mybatis核心结构
 
-![image-20210123114304132](C:\Users\baiheng.jiang\AppData\Roaming\Typora\typora-user-images\image-20210123114304132.png)
+![image-20210123114304132](https://github.com/jiangbaiheng/jiangbaiheng.github.io/blob/main/img/image-20210123114304132.png)
 
 ## 1.1 SqlSession：
 
