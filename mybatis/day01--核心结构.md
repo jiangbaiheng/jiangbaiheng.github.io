@@ -105,7 +105,7 @@ UserMapper mapper = sqlSessionTemplate.getMapper(UserMapper.class);
 - Mybatis的执行器，是Mybatis的调度核心，负责SQL语句的生成和缓存的维护，SqlSession中的crud方法实际上都是调用执行器中的对应方法执行。
 - 继承结构如下图：
 
-![image-20210123130919341](C:\Users\baiheng.jiang\AppData\Roaming\Typora\typora-user-images\image-20210123130919341.png)
+![image-20210123130919341](https://github.com/jiangbaiheng/jiangbaiheng.github.io/blob/main/img/image-20210123130919341.png)
 
 ### 1.2.1 实现类：
 
@@ -219,7 +219,7 @@ public Executor newExecutor(Transaction transaction, ExecutorType executorType) 
 
 ### 1.3.1 实现类：
 
-![image-20210123133923706](C:\Users\baiheng.jiang\AppData\Roaming\Typora\typora-user-images\image-20210123133923706.png)
+![image-20210123133923706](https://github.com/jiangbaiheng/jiangbaiheng.github.io/blob/main/img/image-20210123133923706.png)
 
 #### SimpleStatementHandler
 
