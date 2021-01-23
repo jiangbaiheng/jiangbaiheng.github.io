@@ -4,9 +4,13 @@
 
 ## 1 源码的技术本质：
 
-![image-20210123201510496](C:\Users\baiheng.jiang\AppData\Roaming\Typora\typora-user-images\image-20210123201510496.png)
+![image-20210123201510496](https://github.com/jiangbaiheng/jiangbaiheng.github.io/raw/main/img/day02-0-%E6%BA%90%E7%A0%81%E7%9A%84%E6%8A%80%E6%9C%AF%E6%9C%AC%E8%B4%A8.JPG)
 
-![image-20210123224122157](C:\Users\baiheng.jiang\AppData\Roaming\Typora\typora-user-images\image-20210123224122157.png)
+
+
+![image-20210123224122157](https://github.com/jiangbaiheng/jiangbaiheng.github.io/raw/main/img/day02-11-mybatis%E6%A0%B8%E5%BF%83%E6%B5%81%E7%A8%8B.JPG)
+
+
 
 
 
@@ -14,11 +18,11 @@
 
 ### 2.1 数据源获取步骤：
 
-​	![image-20210123201158618](C:\Users\baiheng.jiang\AppData\Roaming\Typora\typora-user-images\image-20210123201158618.png)
+​	![image-20210123201158618](https://github.com/jiangbaiheng/jiangbaiheng.github.io/raw/main/img/day02-2-%E6%95%B0%E6%8D%AE%E6%BA%90%E8%8E%B7%E5%8F%96%E6%AD%A5%E9%AA%A4.JPG)
 
-![image-20210123201344287](C:\Users\baiheng.jiang\AppData\Roaming\Typora\typora-user-images\image-20210123201344287.png)
+![image-20210123201344287](https://github.com/jiangbaiheng/jiangbaiheng.github.io/raw/main/img/day02-3-%E6%95%B0%E6%8D%AE%E6%BA%90%E8%8E%B7%E5%8F%96%E6%AD%A5%E9%AA%A42.JPG)
 
-![image-20210123200346781](C:\Users\baiheng.jiang\AppData\Roaming\Typora\typora-user-images\image-20210123200346781.png)
+![image-20210123200346781](https://github.com/jiangbaiheng/jiangbaiheng.github.io/raw/main/img/day02-1.JPG)
 
 
 
@@ -134,7 +138,7 @@ public Configuration parse() {
   - url
   - mapperclass
 
-![image-20210123204214981](C:\Users\baiheng.jiang\AppData\Roaming\Typora\typora-user-images\image-20210123204214981.png)
+![image-20210123204214981](https://github.com/jiangbaiheng/jiangbaiheng.github.io/raw/main/img/day02-4-mapper%E7%9A%84%E5%87%A0%E7%A7%8D%E5%BD%A2%E5%BC%8F.JPG)
 
 =======================================================================================
 
@@ -166,46 +170,45 @@ public Configuration parse() {
  }
 ```
 
-+ context节点的内容：
 
-  ```xml
-  <mapper namespace="org.mybatis.example.BlogMapper">
-      <select id="selectBlog" resultType="org.apache.ibatis.demo.pojo.Blog">
-     		select * from Blog where id = #{id}
-      </select>
-  </mapper>
-  ```
 
-  ### 3.1 获取SQL语句的步骤：
+```xml
+<mapper namespace="org.mybatis.example.BlogMapper">
+    <select id="selectBlog" resultType="org.apache.ibatis.demo.pojo.Blog">
+   		select * from Blog where id = #{id}
+    </select>
+</mapper>
+```
 
-  ![image-20210123212435250](C:\Users\baiheng.jiang\AppData\Roaming\Typora\typora-user-images\image-20210123212435250.png)
+### 3.1 获取SQL语句的步骤：
 
-  ![image-20210123212634514](C:\Users\baiheng.jiang\AppData\Roaming\Typora\typora-user-images\image-20210123212634514.png)
+![image-20210123212435250](https://github.com/jiangbaiheng/jiangbaiheng.github.io/raw/main/img/day02-5-%E8%8E%B7%E5%8F%96SQL%E8%AF%AD%E5%8F%A5%E7%9A%84%E6%AD%A5%E9%AA%A4.JPG)
 
-  ## 4. Mybatis操作数据库：
+![image-20210123212634514](https://github.com/jiangbaiheng/jiangbaiheng.github.io/raw/main/img/day02-6-%E8%8E%B7%E5%8F%96SQL%E8%AF%AD%E5%8F%A5%E7%9A%84%E6%AD%A5%E9%AA%A42.JPG)
 
-  ![image-20210123223847041](C:\Users\baiheng.jiang\AppData\Roaming\Typora\typora-user-images\image-20210123223847041.png)
+## 4. Mybatis操作数据库：
 
-  ### 4.1 openSession()
+![image-20210123223847041](https://github.com/jiangbaiheng/jiangbaiheng.github.io/raw/main/img/day02-10-%E6%93%8D%E4%BD%9C%E6%95%B0%E6%8D%AE%E5%BA%93%E6%AD%A5%E9%AA%A4.JPG)
 
-  ![image-20210123213727214](C:\Users\baiheng.jiang\AppData\Roaming\Typora\typora-user-images\image-20210123213727214.png)
+### 4.1 openSession()
 
-  ### 4.2 openSessionFromDataSource()
+![image-20210123213727214](https://github.com/jiangbaiheng/jiangbaiheng.github.io/raw/main/img/day02-7-%E6%93%8D%E4%BD%9C%E6%95%B0%E6%8D%AE%E5%BA%93.JPG)
 
-  ![image-20210123214213749](C:\Users\baiheng.jiang\AppData\Roaming\Typora\typora-user-images\image-20210123214213749.png)
+### 4.2 openSessionFromDataSource()
 
-  ### 4.3 newExecutor()
+![image-20210123214213749](https://github.com/jiangbaiheng/jiangbaiheng.github.io/raw/main/img/day02-8-openSession.JPG)
 
-  #### 三种枚举类型：
+### 4.3 newExecutor()
 
-  + SIMPLE
-  + BATCH
-  + REUSE
+#### 三种枚举类型：
 
-  ![image-20210123214603327](C:\Users\baiheng.jiang\AppData\Roaming\Typora\typora-user-images\image-20210123214603327.png)
++ SIMPLE
++ BATCH
++ REUSE
 
-  
+![image-20210123214603327](https://github.com/jiangbaiheng/jiangbaiheng.github.io/raw/main/img/day02-9-newExecutor.JPG)
 
-  
 
-  
+
+
+
