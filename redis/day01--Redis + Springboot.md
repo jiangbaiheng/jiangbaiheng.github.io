@@ -2,7 +2,7 @@
 
 ## 1 背景：
 
-![](C:\Users\baiheng.jiang\Documents\GitHub\jiangbaiheng.github.io\img\redis\day01-1-background.png)
+![](https://github.com/jiangbaiheng/jiangbaiheng.github.io/raw/main/img/redis/day01-1-background.png)
 
 ## 2 导入依赖：
 

@@ -13,4 +13,4 @@
     * [2021/1/21--Mybatis核心步骤](https://github.com/jiangbaiheng/jiangbaiheng.github.io/blob/main/mybatis/day02--mybatis%E6%A0%B8%E5%BF%83%E6%AD%A5%E9%AA%A4.md)
 
 + 系列专题--Redis
-  * [2021/1/30--Redis + SpringBoot ](https://github.com/jiangbaiheng/jiangbaiheng.github.io/blob/main/mybatis/day01--%E6%A0%B8%E5%BF%83%E7%BB%93%E6%9E%84.md)
+  * [2021/1/30--Redis + SpringBoot ](https://github.com/jiangbaiheng/jiangbaiheng.github.io/blob/main/redis/day01--Redis%20%2B%20Springboot.md)
